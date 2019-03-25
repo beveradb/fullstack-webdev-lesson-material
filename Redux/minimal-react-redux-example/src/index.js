@@ -13,7 +13,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {createStore} from 'redux'
-import {devToolsEnhancer} from 'redux-devtools-extension';
+import {devToolsEnhancer} from 'redux-devtools-extension'
 import Counter from './components/Counter'
 import counterReducer from './reducers'
 
