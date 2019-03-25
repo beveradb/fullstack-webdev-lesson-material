@@ -36,6 +36,10 @@ const rootDivElementForReactDOM = document.getElementById('root');
 // We are also passing in two parameters here for the increment / decrement
 // functionality used by the component. In this way we are keeping control
 // of all Actions used by this component, outside of the component itself.
+//
+// In React you’ll pass a function from a parent to a child component, so
+// the child can communicate back up to the parent. Props and data flow
+// down, and function calls flow up.
 const render = () => ReactDOM.render(
     <Counter
         value={store.getState()}

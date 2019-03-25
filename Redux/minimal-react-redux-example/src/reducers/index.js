@@ -1,4 +1,5 @@
-// Our reducer is pretty simple, as there are only two possible actions
+// Our reducer is pretty simple, as there are only two possible actions,
+// either incrementing or decrementing the integer value in our state
 export default (state = 0, action) => {
     switch (action.type) {
         case 'INCREMENT':
