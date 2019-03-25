@@ -14,7 +14,7 @@
 //
 // In this very simple example, there is only one reducer so it is passed
 // into the createStore method directly - as such, this is the "root" reducer.
-function reduxReducer(state, action) {
+function counterReducer(state, action) {
     if (typeof state === 'undefined') {
         return 0
     }
@@ -57,7 +57,7 @@ function reduxReducer(state, action) {
 // extension to work. This extension is incredibly valuable and is
 // considered essential when building Redux apps - even in a minimal example!
 const store = Redux.createStore(
-    reduxReducer,
+    counterReducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ &&
     window.__REDUX_DEVTOOLS_EXTENSION__({trace: true})
 );
