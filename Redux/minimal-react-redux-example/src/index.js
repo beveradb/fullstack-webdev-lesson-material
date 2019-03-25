@@ -1,10 +1,12 @@
 // Compared to the Redux-only minimal example, we're introducing more elements
-// of a modern JavaScript app here. For example, while the previous
-// iteration worked directly in the browser without a build process, there
-// are many more things which are made possible by introducing a build process.
+// of a modern JavaScript app here. While the previous iteration worked
+// directly in the browser without a required build process, there are many
+// more things which are only made possible by introducing a build process.
+//
 // In this example we're using the popular create-react-app (react-scripts)
 // package, which uses Webpack & Babel to transpile this code into code
 // which is supported by all major browsers.
+//
 // This means we can use the ES6 "import" syntax to import React, Redux and
 // our own Component and Reducer below, from neatly organised sub-folders.
 
