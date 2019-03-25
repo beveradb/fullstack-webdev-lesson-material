@@ -1,10 +1,11 @@
 {
-  "name": "todomvc",
-  "version": "0.0.1",
+  "name": "better-react-redux-example-todosmvc",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "^2.1.8",
-    "react-test-renderer": "^16.8.5"
+    "react-test-renderer": "^16.8.5",
+    "redux-devtools-extension": "^2.13.8"
   },
   "dependencies": {
     "classnames": "^2.2.6",
