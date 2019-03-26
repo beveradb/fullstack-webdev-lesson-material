@@ -13,6 +13,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {createStore} from 'redux'
+
+// Notably, in this example there is an import "missing" here which is used
+// by the vast majority of React apps with Redux - "react-redux". This
+// library provides the official bindings, making it easier for your React
+// components read data from a Redux store, and dispatch actions to the store.
+// However, it isn't strictly necessary, and as it is important to
+// understand how things work without it, we've deliberately left it out
+// for this example.
+
 import {devToolsEnhancer} from 'redux-devtools-extension'
 import Counter from './components/Counter'
 import counterReducer from './reducers'
