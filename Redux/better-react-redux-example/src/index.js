@@ -10,6 +10,9 @@ import {devToolsEnhancer} from 'redux-devtools-extension'
 //
 // The react-redux library provides <Provider />, which makes the store
 // available to any components nested inside it through the connect() method.
+// <Provider /> is a higher-order component (HOC): an advanced technique
+// for reusing component logic, and is aware of the store's state.
+//
 // Most projects wrap the entire app's component tree in it, as we see below.
 import {Provider} from 'react-redux'
 
