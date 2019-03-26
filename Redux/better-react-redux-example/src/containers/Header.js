@@ -17,6 +17,9 @@ import {addTodo} from '../actions'
 // mapDispatchToProps, to inject the "addTodo" Action Creator into the
 // Header component without subscribing to updates from the store.
 //
+// In general, mapDispatchToProps lets you create functions that dispatch
+// when called, and pass those functions as props to your component.
+//
 // This usage of mapDispatchToProps is the "object shorthand" form, which
 // automates a lot of what you would otherwise need to configure with the
 // function form, such as calling bindActionCreators for you.

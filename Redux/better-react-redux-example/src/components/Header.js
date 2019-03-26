@@ -19,6 +19,8 @@ const Header = ({addTodo}) => (
     </header>
 );
 
+// PropTypes can be used to validate the component has been passed the
+// correct pre-bound action creator function at runtime.
 Header.propTypes = {
     addTodo: PropTypes.func.isRequired
 };
